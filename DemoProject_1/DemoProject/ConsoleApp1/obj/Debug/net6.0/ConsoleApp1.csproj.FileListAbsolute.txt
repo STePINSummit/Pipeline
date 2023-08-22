@@ -1,0 +1,14 @@
+D:\STeP-IN SUMMIT\DemoProject\DemoProject_1\DemoProject\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.exe
+D:\STeP-IN SUMMIT\DemoProject\DemoProject_1\DemoProject\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.deps.json
+D:\STeP-IN SUMMIT\DemoProject\DemoProject_1\DemoProject\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.runtimeconfig.json
+D:\STeP-IN SUMMIT\DemoProject\DemoProject_1\DemoProject\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.dll
+D:\STeP-IN SUMMIT\DemoProject\DemoProject_1\DemoProject\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.pdb
+D:\STeP-IN SUMMIT\DemoProject\DemoProject_1\DemoProject\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+D:\STeP-IN SUMMIT\DemoProject\DemoProject_1\DemoProject\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.AssemblyInfoInputs.cache
+D:\STeP-IN SUMMIT\DemoProject\DemoProject_1\DemoProject\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.AssemblyInfo.cs
+D:\STeP-IN SUMMIT\DemoProject\DemoProject_1\DemoProject\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+D:\STeP-IN SUMMIT\DemoProject\DemoProject_1\DemoProject\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.dll
+D:\STeP-IN SUMMIT\DemoProject\DemoProject_1\DemoProject\ConsoleApp1\obj\Debug\net6.0\refint\ConsoleApp1.dll
+D:\STeP-IN SUMMIT\DemoProject\DemoProject_1\DemoProject\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.pdb
+D:\STeP-IN SUMMIT\DemoProject\DemoProject_1\DemoProject\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.genruntimeconfig.cache
+D:\STeP-IN SUMMIT\DemoProject\DemoProject_1\DemoProject\ConsoleApp1\obj\Debug\net6.0\ref\ConsoleApp1.dll
