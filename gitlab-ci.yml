@@ -1,0 +1,43 @@
+######################################################################################################################
+stages:
+         - Build
+         - Test
+
+###################################################################################################################### 
+
+Build:
+    stage: Build
+
+    tags:
+        - Agent-1
+
+    script:
+    
+          - echo "**************** Powercenter3000-automation Debug Build ****************"
+          - 'cmd.exe /c "C:\Program Files\Microsoft Visual Studio\2022\Professional\Msbuild\Current\Bin\msbuild.exe" "Siemens.EP.Sentron.powermind.Test\Siemens.EP.Sentron.powermind.Test.sln" "/target:Rebuild" "/p:Configuration=Debug;Platform=x86" "/l:FileLogger,Microsoft.Build.Engine;logfile=powermind_testautomation_Debug.txt;Append;verbosity=normal;encoding=utf-8"'
+          
+          - echo "**************** Powercenter3000-automation Release Build ****************"
+          - 'cmd.exe /c "C:\Program Files\Microsoft Visual Studio\2022\Professional\Msbuild\Current\Bin\msbuild.exe" "Siemens.EP.Sentron.powermind.Test\Siemens.EP.Sentron.powermind.Test.sln" "/target:Rebuild" "/p:Configuration=Release;Platform=x86" "/l:FileLogger,Microsoft.Build.Engine;logfile=powermind_testautomation_Release.txt;Append;verbosity=normal;encoding=utf-8"'
+
+
+    artifacts:
+        paths:
+        
+           - powermind_testautomation_Debug.txt
+           - powermind_testautomation_Release.txt
+           - Siemens.EP.Sentron.powermind.Test\Binaries\**
+
+######################################################################################################################
+Test-Agent-1:
+    stage: Test
+
+    tags:
+        - Agent-1
+
+    script:
+    
+          - echo "**************** Starting Test ****************"
+          - cd Siemens.EP.Sentron.powermind.Test\Binaries
+          - 'cmd.exe /c "$Test_Agent_1"'
+
+######################################################################################################################
